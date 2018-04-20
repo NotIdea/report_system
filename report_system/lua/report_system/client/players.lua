@@ -10,6 +10,6 @@ function ReportSystemPlayers()
 	end
 
 	for i=1,#player.GetAll() do
-		PlayersList:AddLine(i, player.GetAll()[i]:Name(), "STEAM_0:0:155426605", player.GetAll()[i]:GetUserGroup())
+		PlayersList:AddLine(i, player.GetAll()[i]:Name(), player.GetAll()[i]:SteamID(), player.GetAll()[i]:GetUserGroup())
 	end
 end
