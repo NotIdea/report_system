@@ -52,7 +52,7 @@ net.Receive("NotIdea.ReportS.Open", function()
 	local ReportSAvatar = vgui.Create("AvatarImage", ReportSF)
 	ReportSAvatar:SetSize(ReportSF:GetWide() / 30, ReportSF:GetTall() / 20)
 	ReportSAvatar:SetPos(ReportSF:GetWide() / 80, ReportSF:GetTall() / 6)
-	ReportSAvatar:SetPlayer("[U:1:310853210]", 64)
+	ReportSAvatar:SetPlayer(LocalPlayer(), 64)
 
 	local ReportSScroll = vgui.Create("DScrollPanel", ReportSF)
 	ReportSScroll:SetSize(ReportSF:GetWide() / 4.04, ReportSF:GetTall() / 1.3)
